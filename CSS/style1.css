@@ -78,7 +78,7 @@ nav ul li {
   margin: 15px; 
 }      
 nav a, ul li a{
-  color: rgb(113, 15, 133);
+  color: #d100d1; 
   text-decoration: none; 
 }
 ul li a:hover {
