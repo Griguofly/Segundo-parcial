@@ -16,6 +16,7 @@ body {
   flex-direction: column;
   background-image: url('../Imagenes/textura-fondo.png');
   min-height: 100vh;
+  overflow-x: hidden;
 }
 main {
   flex: auto;
@@ -159,4 +160,35 @@ footer {
   text-align: left ;
   padding: 20px;
   margin-top:339px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul {
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 10px;
+    font-size: 20px;
+  }
+  nav ul li{
+    margin: 0;
+  }
+  h1{
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+ h3{
+   font-size: 22px;
+  }
+  iframe  {
+    width: 100%;
+  }  
+  audio{
+    width: 75%;
+  }
 }
