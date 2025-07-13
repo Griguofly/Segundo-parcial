@@ -37,7 +37,7 @@
 }
 .Ir-Pag-Man {
   padding: 50px;
-  background-color:  #2e2c2cbd;;
+  background-color:  #2e2c2cbd;
   border: 1px solid #d100d1;
   border-radius: 8px;
   margin: 70px auto;
@@ -67,6 +67,13 @@
   margin-left: 300px;
   font-size: 24px;
   width: 1250px;
+}
+.lista-detalles {
+  margin-left: 10px;
+  text-align: left;
+}
+.lista-detalles li {
+  margin-bottom: 10px;
 }
 .audio-fnaf {
   width: 100%;
@@ -189,7 +196,7 @@
   text-align: center;
 }
 .redes {
-  text-align: center;
+  text-align: left;
 }
 .confirmacion{
   margin-top: 150px;
